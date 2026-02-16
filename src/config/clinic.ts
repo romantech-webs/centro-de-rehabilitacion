@@ -1,307 +1,377 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Centro De Rehabilitacion Artros",
+  logo: "/images/logo.png",
+  tagline: "Tu recuperación es nuestra prioridad en Cantabria",
+  description: "Centro De Rehabilitación Artros es tu clínica de fisioterapia y rehabilitación de confianza en Cantabria. Con 4.4 estrellas y 77 reseñas en Google, nuestro equipo médico especializado te ofrece tratamientos personalizados para ciática, recuperación postoperatoria, lesiones por accidente y rehabilitación integral. Profesionalidad, trato humano y resultados que marcan la diferencia.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#49536f",
+    secondary: "#091737",
+    accent: "#091737",
+    neutral: "#f0f1f3"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "942 21 08 08",
+  whatsapp: "+34942210808",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "C. Guevara, 2, 39001 Santander, Cantabria, España",
+    city: "Cantabria",
+    province: "Álava",
+    postalCode: "39001",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=5600524222515766315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Centro%20De%20Rehabilitacion%20Artros%20%4043.4637%2C-3.81052&z=16&output=embed",
+  coordinates: {
+    lat: 43.4637,
+    lng: -3.81052
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "9:00–13:30, 16:00–20:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.4,
+    count: 77,
+    url: "https://maps.google.com/?cid=5600524222515766315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Ana M. Gutiérrez Amigo",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Llegué en una situación desesperada de  ciática y desde la primera sesión noté un gran alivio, incluso disminución en el dolor.\nQuiero agradecer la buena atención recibida a todo el equipo.\nA cada uno en su especialidad, Ana, Elsa, Sergio, Yolanda, y no menos al doctor G. Cuadrado, ..además de su profesionalidad, destaco su  amabilidad y calidad humana,\nSu esfuerzo e interés, sumado a la empatía recibida, hacen que su profesionalidad se duplique.\nEsa suma de factores, ha dado como resultado mi pronta recuperación.\nPuede que no sea el centro más moderno, con los últimos adelantos en aparatos,.. pero el resultado ha sido bueno y positivo.\nSe percibe un buen equipo y gran compañerismo.\nY es de agradecer ese ambiente tan saludable.\nGracias",
+        date: "Hace 3 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "amparo",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Trato muy profesional, amable, respetuoso y considerado por parte de todo el personal\nMuchas facilidades para los horarios.\nMuy contenta con el trato recibido y el tratamiento rehabilitador tras un accidente de tráfico",
+        date: "Hace 1 mes"
       },
       {
-        author: "Melanie Ponce",
+        author: "Miguel Angel Jato Alvarez",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Llevo 20 sesiones de recuperación operacion protesis rodilla, estoy súper contento, amabilidad, profesionalidad, puntualidad, todo muy cordial.\nTe hacen todos los trámites con el seguro.\nLo recomiendo 100%",
+        date: "Hace 2 meses"
       },
       {
-        author: "María Teresa Salguero",
-        rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
-      },
-    ],
+        author: "Alberto G.",
+        rating: 4,
+        text: "Magnífica atención integral, desde la recepción  y organización de rutinas, pasando por el cuadro médico y terminando por el día a día en el gimnasio y diferentes salas de rehabilitación... todos contribuyen a la mejora y evolución favorable de los pacientes. En mi caso... tercera vez que los elijo... y si vuelvo a necesitar... repetiré.",
+        date: "Hace 2 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "rehabilitacion-postoperatoria",
+      name: "Rehabilitación Postoperatoria",
+      description: "Programas especializados de recuperación tras cirugías de prótesis de rodilla, cadera y otras intervenciones. Diseñamos rutinas personalizadas adaptadas a tu evolución, con seguimiento médico continuo para garantizar una recuperación óptima y segura.",
+      benefits: [
+        "Recuperación más rápida y efectiva tras cirugía",
+        "Seguimiento médico personalizado en cada sesión",
+        "Gestión completa de trámites con tu seguro"
+      ],
+      icon: "Activity"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "tratamiento-ciatica",
+      name: "Tratamiento de Ciática",
+      description: "Tratamiento especializado para el dolor ciático con técnicas manuales y terapias avanzadas. Desde la primera sesión trabajamos para aliviar el dolor y recuperar tu movilidad, combinando fisioterapia manual con ejercicios terapéuticos específicos.",
+      benefits: [
+        "Alivio del dolor desde la primera sesión",
+        "Técnicas manuales especializadas",
+        "Recuperación progresiva y duradera"
+      ],
+      icon: "Target"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "rehabilitacion-accidentes",
+      name: "Rehabilitación tras Accidentes",
+      description: "Tratamiento integral para recuperación tras accidentes de tráfico y laborales. Nos encargamos de toda la gestión con tu aseguradora mientras tú te centras en tu recuperación, con sesiones adaptadas a tus necesidades específicas.",
+      benefits: [
+        "Gestión completa de trámites con seguros",
+        "Tratamiento personalizado según tus lesiones",
+        "Flexibilidad horaria para tu comodidad"
+      ],
+      icon: "Heart"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Técnicas manuales especializadas aplicadas por fisioterapeutas expertos para tratar dolor muscular, articular y contracturas. Cada sesión se adapta a tu estado y evolución, con un enfoque integral que combina diferentes metodologías.",
+      benefits: [
+        "Tratamiento personalizado en cada sesión",
+        "Alivio efectivo del dolor muscular y articular",
+        "Mejora progresiva de la movilidad"
+      ],
+      icon: "Hand"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "gimnasio-rehabilitacion",
+      name: "Gimnasio de Rehabilitación",
+      description: "Sala equipada con aparatos específicos para rehabilitación funcional supervisada. Realizamos ejercicios terapéuticos guiados que aceleran tu recuperación y fortalecen las zonas afectadas, siempre bajo supervisión profesional constante.",
+      benefits: [
+        "Supervisión profesional continua",
+        "Ejercicios adaptados a tu patología",
+        "Recuperación funcional completa"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "electroterapia",
+      name: "Electroterapia",
+      description: "Aplicación de corrientes terapéuticas para reducir inflamación, aliviar dolor y acelerar la recuperación de tejidos. Tecnología complementaria a las terapias manuales que potencia los resultados del tratamiento.",
+      benefits: [
+        "Reducción efectiva de la inflamación",
+        "Alivio del dolor sin medicación",
+        "Aceleración del proceso de curación"
+      ],
+      icon: "Zap"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "tratamiento-integral",
+      name: "Tratamiento Médico Integral",
+      description: "Atención completa con equipo médico especializado que coordina tu tratamiento desde el diagnóstico hasta la recuperación total. Combinamos valoración médica, fisioterapia y rehabilitación en un mismo centro para tu comodidad.",
+      benefits: [
+        "Equipo médico y fisioterapeutas coordinados",
+        "Diagnóstico preciso y plan personalizado",
+        "Seguimiento completo de tu evolución"
+      ],
+      icon: "Activity"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "fisioterapia-preventiva",
+      name: "Fisioterapia Preventiva",
+      description: "Programas de mantenimiento y prevención de lesiones para evitar recaídas y mantener tu bienestar a largo plazo. Ideal para quienes han completado su rehabilitación y desean mantener los resultados conseguidos.",
+      benefits: [
+        "Prevención de futuras lesiones",
+        "Mantenimiento de resultados obtenidos",
+        "Mejora continua de tu calidad de vida"
+      ],
+      icon: "Heart"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta y Agenda",
+      description: "Llama al 942 21 08 08 para solicitar tu cita. Ofrecemos gran flexibilidad horaria para adaptarnos a tu disponibilidad. Si vienes derivado de un accidente o cirugía, gestionamos todos los trámites con tu aseguradora."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración Médica Inicial",
+      description: "Nuestro equipo médico realiza una evaluación completa de tu estado. El Dr. G. Cuadrado y su equipo analizan tu caso, establecen un diagnóstico preciso y diseñan un plan de tratamiento personalizado adaptado a tus necesidades específicas."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento Personalizado",
+      description: "Comenzamos tu programa de rehabilitación con sesiones adaptadas a tu evolución. Ana, Elsa, Sergio, Yolanda y el resto del equipo aplican las técnicas más adecuadas combinando fisioterapia manual, ejercicios en gimnasio y terapias complementarias."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento y Recuperación",
+      description: "Monitorizamos tu progreso en cada sesión, ajustando el tratamiento según tu evolución. Nuestro objetivo es tu recuperación completa, con seguimiento continuo hasta que recuperes tu funcionalidad y calidad de vida al 100%."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Avalados por Nuestros Pacientes",
+      description: "4.4 estrellas y 77 reseñas en Google nos respaldan. Nuestros pacientes destacan la efectividad de los tratamientos, la profesionalidad del equipo y especialmente el trato humano cercano y empático que reciben desde la primera sesión. Resultados reales de personas reales.",
+      icon: "Heart"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Equipo Médico Experimentado",
+      description: "Contamos con médicos especialistas como el Dr. G. Cuadrado y un equipo de fisioterapeutas expertos que trabajan de forma coordinada. Cada profesional aporta su especialidad para ofrecerte un tratamiento integral y personalizado, con el respaldo de años de experiencia en rehabilitación.",
+      icon: "Target"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Gestión Integral con Seguros",
+      description: "Nos encargamos de todos los trámites con tu compañía de seguros o mutua. Ya sea por accidente de tráfico, laboral o postoperatorio, nuestro equipo gestiona la documentación necesaria para que tú solo te centres en tu recuperación. Máxima comodidad y facilidades.",
+      icon: "Activity"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Flexibilidad y Trato Personalizado",
+      description: "Ofrecemos gran flexibilidad horaria para adaptarnos a tu disponibilidad. Cada tratamiento se diseña específicamente para ti y se ajusta según tu evolución. Nuestros pacientes valoran la puntualidad, el ambiente de trabajo en equipo y la atención individualizada que reciben en cada sesión.",
+      icon: "Hand"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Dr. G. Cuadrado",
+      role: "Médico Especialista",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Centro De Rehabilitacion Artros nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
     },
+    {
+      name: "Ana",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Centro De Rehabilitacion Artros nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Elsa",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Centro De Rehabilitacion Artros nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Sergio",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Centro De Rehabilitacion Artros nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Yolanda",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Centro De Rehabilitacion Artros nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 4"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 7"
+    },
+    {
+      src: "/images/gallery/8.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 8"
+    },
+    {
+      src: "/images/gallery/9.webp",
+      alt: "Centro De Rehabilitacion Artros - Imagen 9"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Cómo puedo solicitar cita en Centro De Rehabilitación Artros?",
+      answer: "Puedes llamarnos directamente al 942 21 08 08 para agendar tu cita. Ofrecemos gran flexibilidad horaria para adaptarnos a tus necesidades. Si vienes derivado de un accidente de tráfico o necesitas rehabilitación postoperatoria, también gestionamos todos los trámites necesarios con tu compañía de seguros para tu comodidad."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Qué debo llevar a mi primera consulta?",
+      answer: "Para tu primera visita trae informes médicos previos, pruebas diagnósticas (radiografías, resonancias), documentación de tu seguro si aplica, y ropa cómoda para la exploración. Si vienes por un accidente o postoperatorio, trae también el parte médico correspondiente. Nuestro equipo revisará toda la documentación para diseñar tu plan de tratamiento personalizado."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Trabajáis con compañías de seguros y mutuas?",
+      answer: "Sí, en Centro De Rehabilitación Artros gestionamos todos los trámites con tu aseguradora. Trabajamos con diferentes compañías de seguros y mutuas, especialmente en casos de accidentes de tráfico y laborales. Nuestro personal administrativo se encarga de toda la gestión para que tú solo te preocupes de tu recuperación."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Cuántas sesiones necesitaré para recuperarme?",
+      answer: "El número de sesiones depende de tu patología y evolución personal. Algunos pacientes notan mejoría desde la primera sesión, como en casos de ciática aguda. En rehabilitaciones postoperatorias de prótesis, los programas suelen ser de 15-20 sesiones. Durante tu valoración inicial, nuestro equipo médico te informará del plan estimado para tu caso específico."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Qué especialidades tiene vuestro equipo?",
+      answer: "Nuestro equipo está formado por médicos especialistas, fisioterapeutas titulados y profesionales de rehabilitación. Cada miembro del equipo, incluyendo a Ana, Elsa, Sergio, Yolanda y el Dr. G. Cuadrado, aporta su especialidad para ofrecerte un tratamiento integral. Destacamos por nuestra coordinación como equipo y el trato humano y cercano que nos caracteriza."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Tratáis lesiones deportivas y de alta competición?",
+      answer: "Sí, ofrecemos tratamiento de fisioterapia deportiva y rehabilitación funcional para deportistas. Aunque nuestra especialidad principal es la rehabilitación integral, traumatológica y postoperatoria, también tratamos lesiones deportivas con programas personalizados. Nuestro gimnasio de rehabilitación permite trabajar la recuperación funcional específica para el retorno a la actividad deportiva."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué diferencia a Centro De Rehabilitación Artros de otras clínicas?",
+      answer: "Nuestros pacientes destacan tres aspectos fundamentales: la profesionalidad y experiencia de nuestro equipo médico, el trato humano cercano y empático que recibes desde el primer día, y los resultados efectivos que conseguimos. Con 4.4 estrellas y 77 reseñas en Google, nuestros pacientes valoran especialmente el ambiente de trabajo en equipo, la puntualidad y la atención personalizada en cada sesión."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Realizáis tratamientos para dolor crónico?",
+      answer: "Sí, tratamos dolor crónico con diferentes técnicas de fisioterapia manual, electroterapia y rehabilitación funcional. Tenemos experiencia en casos de ciática crónica, dolor lumbar persistente, secuelas de accidentes y dolor postoperatorio. Nuestro enfoque integral combina tratamiento médico, fisioterapia y ejercicios terapéuticos para abordar el dolor desde múltiples perspectivas y conseguir resultados duraderos."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Centro De Rehabilitacion Artros",
+    defaultTitle: "Centro De Rehabilitación Artros | Fisioterapia Cantabria",
+    defaultDescription: "Clínica de fisioterapia y rehabilitación en Cantabria. Especialistas en recuperación postoperatoria, ciática y accidentes. 4.4★ en Google. Llama al 942 21 08 08",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Cantabria",
+      "rehabilitación Cantabria",
+      "Centro De Rehabilitacion Artros",
+      "fisioterapeuta Cantabria",
+      "rehabilitación postoperatoria Cantabria",
+      "tratamiento ciática Cantabria",
+      "fisioterapia accidentes tráfico",
+      "clínica rehabilitación Cantabria",
+      "prótesis rodilla rehabilitación",
+      "fisioterapia Álava",
+      "centro fisioterapia Cantabria",
+      "rehabilitación integral Cantabria"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Centro De Rehabilitacion Artros",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C. Guevara, 2, 39001 Santander, Cantabria, España, Cantabria, Álava"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Cantabria"
+  ],
+  heroDescription: "En Centro De Rehabilitación Artros combinamos experiencia médica, fisioterapia especializada y un trato humano excepcional para tu recuperación. Nuestro equipo de profesionales te acompaña desde la primera sesión hasta tu completa rehabilitación, con tratamientos personalizados y gestión integral de seguros.",
+  specialty: "Rehabilitación Integral",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Listo para recuperar tu bienestar?",
+  ctaDescription: "Llámanos al 942 21 08 08 y agenda tu primera valoración. Nuestro equipo diseñará un plan de tratamiento personalizado para tu recuperación completa.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
